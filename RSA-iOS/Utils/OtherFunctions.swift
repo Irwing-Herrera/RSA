@@ -83,13 +83,7 @@ class OtherFunctions {
             return nil
         }
         
-        let save: Bool = Keychain.shared.set(tag: tagName, value: pubkeyData!, keyClass: kSecAttrKeyClassPublic)
-        
-        if save {
-            print("Se almaceno la llave")
-        } else {
-            print("Error al almacenar")
-        }
+        Keychain.shared.set(tag: tagName, value: pubkeyData!, keyClass: kSecAttrKeyClassPublic)
         
         return Keychain.shared.getSecKey(tag: tagName)
     }
@@ -179,13 +173,8 @@ class OtherFunctions {
         }
         
         /// Almacenar en Keychain
-        let save: Bool = Keychain.shared.set(tag: tagName, value: privkey, keyClass: kSecAttrKeyClassPrivate)
+        Keychain.shared.set(tag: tagName, value: privkey, keyClass: kSecAttrKeyClassPrivate)
         
-        if save {
-            print("Se almaceno la llave")
-        } else {
-            print("Error al almacenar")
-        }
         return Keychain.shared.getSecKey(tag: tagName)
     }
     /**

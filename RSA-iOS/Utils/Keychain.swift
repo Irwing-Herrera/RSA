@@ -13,7 +13,7 @@ public class Keychain {
     public static let shared = Keychain()
     
     /// Almacenar llave en Keychain
-    public func set(tag: String, value: Data, keyClass: CFString) -> Bool
+    public func set(tag: String, value: Data, keyClass: CFString) -> Void
     {
         let query = [
             String(kSecClass)              : kSecClassKey,
@@ -29,11 +29,12 @@ public class Keychain {
         let result = SecItemAdd(query, nil)
         
         if (result != noErr) {
-            return false
+            print("Error al guardar en KeyChain")
         }
         
-        return true
+        print("Llave almacenada \(tag)")
     }
+    
     /// Retorna una SecKey si esta se encuentra en el Keychain
     public func getSecKey(tag: String) -> SecKey?
     {

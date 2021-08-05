@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA24675026BC45F100EA30D8 /* CryptoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA24674F26BC45F100EA30D8 /* CryptoManager.swift */; };
 		FAB72F8726BB46B100E92447 /* RSA_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB72F8626BB46B100E92447 /* RSA_iOSTests.swift */; };
 		FAB72F9026BB49D300E92447 /* OtherFunctionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB72F8F26BB49D300E92447 /* OtherFunctionsTest.swift */; };
+		FAB72F9226BB772A00E92447 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB72F9126BB772A00E92447 /* Constants.swift */; };
 		FAD6627F26B9892400AF313C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6627E26B9892400AF313C /* AppDelegate.swift */; };
 		FAD6628826B9892500AF313C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD6628726B9892500AF313C /* Assets.xcassets */; };
 		FAD6628B26B9892500AF313C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD6628926B9892500AF313C /* LaunchScreen.storyboard */; };
 		FAD6629926B98A1A00AF313C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6629726B98A1A00AF313C /* HomeViewController.swift */; };
 		FAD6629A26B98A1A00AF313C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD6629826B98A1A00AF313C /* HomeViewController.xib */; };
 		FAD6629E26B9B34E00AF313C /* OtherFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6629D26B9B34E00AF313C /* OtherFunctions.swift */; };
-		FAD662A026B9B3AE00AF313C /* ConfigurationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6629F26B9B3AE00AF313C /* ConfigurationKeys.swift */; };
+		FAD662A026B9B3AE00AF313C /* CryptoCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6629F26B9B3AE00AF313C /* CryptoCore.swift */; };
 		FAD662A326B9B58F00AF313C /* NSInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD662A226B9B58F00AF313C /* NSInteger.swift */; };
 		FAD662A526B9E1AF00AF313C /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD662A426B9E1AF00AF313C /* Keychain.swift */; };
 /* End PBXBuildFile section */
@@ -31,10 +33,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA24674F26BC45F100EA30D8 /* CryptoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoManager.swift; sourceTree = "<group>"; };
 		FAB72F8426BB46B100E92447 /* RSA-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RSA-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB72F8626BB46B100E92447 /* RSA_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSA_iOSTests.swift; sourceTree = "<group>"; };
 		FAB72F8826BB46B100E92447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAB72F8F26BB49D300E92447 /* OtherFunctionsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherFunctionsTest.swift; sourceTree = "<group>"; };
+		FAB72F9126BB772A00E92447 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FAD6627B26B9892400AF313C /* RSA-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSA-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD6627E26B9892400AF313C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD6628726B9892500AF313C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +47,7 @@
 		FAD6629726B98A1A00AF313C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FAD6629826B98A1A00AF313C /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		FAD6629D26B9B34E00AF313C /* OtherFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherFunctions.swift; sourceTree = "<group>"; };
-		FAD6629F26B9B3AE00AF313C /* ConfigurationKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationKeys.swift; sourceTree = "<group>"; };
+		FAD6629F26B9B3AE00AF313C /* CryptoCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCore.swift; sourceTree = "<group>"; };
 		FAD662A226B9B58F00AF313C /* NSInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSInteger.swift; sourceTree = "<group>"; };
 		FAD662A426B9E1AF00AF313C /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +70,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA24674E26BC45DC00EA30D8 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				FA24675126BC549900EA30D8 /* keyStorage */,
+				FA24674F26BC45F100EA30D8 /* CryptoManager.swift */,
+				FAD6629F26B9B3AE00AF313C /* CryptoCore.swift */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		FA24675126BC549900EA30D8 /* keyStorage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = keyStorage;
+			sourceTree = "<group>";
+		};
 		FAB72F8526BB46B100E92447 /* RSA-iOSTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,10 +188,11 @@
 		FAD6629C26B9B32900AF313C /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FA24674E26BC45DC00EA30D8 /* library */,
 				FAD662A126B9B56800AF313C /* Extensions */,
 				FAD6629D26B9B34E00AF313C /* OtherFunctions.swift */,
-				FAD6629F26B9B3AE00AF313C /* ConfigurationKeys.swift */,
 				FAD662A426B9E1AF00AF313C /* Keychain.swift */,
+				FAB72F9126BB772A00E92447 /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -292,10 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAD662A026B9B3AE00AF313C /* ConfigurationKeys.swift in Sources */,
+				FAD662A026B9B3AE00AF313C /* CryptoCore.swift in Sources */,
 				FAD662A326B9B58F00AF313C /* NSInteger.swift in Sources */,
+				FA24675026BC45F100EA30D8 /* CryptoManager.swift in Sources */,
 				FAD6627F26B9892400AF313C /* AppDelegate.swift in Sources */,
 				FAD6629E26B9B34E00AF313C /* OtherFunctions.swift in Sources */,
+				FAB72F9226BB772A00E92447 /* Constants.swift in Sources */,
 				FAD6629926B98A1A00AF313C /* HomeViewController.swift in Sources */,
 				FAD662A526B9E1AF00AF313C /* Keychain.swift in Sources */,
 			);

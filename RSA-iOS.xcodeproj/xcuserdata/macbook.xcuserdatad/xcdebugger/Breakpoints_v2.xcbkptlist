@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B7640AFF-4D83-477B-89DA-AD5AC42DA589"
+            uuid = "5F75F1CF-3536-446E-93D4-FF21BDAC8DC4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RSA-iOS/Controllers/Home/HomeViewController.swift"
+            filePath = "RSA-iOS/Utils/ConfigurationKeys.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "_encryptWithAndroidKeys()"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "init(aliasKey:publicKey:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
