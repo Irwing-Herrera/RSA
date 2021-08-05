@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB72F8726BB46B100E92447 /* RSA_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB72F8626BB46B100E92447 /* RSA_iOSTests.swift */; };
+		FAB72F9026BB49D300E92447 /* OtherFunctionsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB72F8F26BB49D300E92447 /* OtherFunctionsTest.swift */; };
+		FAD6627F26B9892400AF313C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6627E26B9892400AF313C /* AppDelegate.swift */; };
+		FAD6628826B9892500AF313C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD6628726B9892500AF313C /* Assets.xcassets */; };
+		FAD6628B26B9892500AF313C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD6628926B9892500AF313C /* LaunchScreen.storyboard */; };
+		FAD6629926B98A1A00AF313C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6629726B98A1A00AF313C /* HomeViewController.swift */; };
+		FAD6629A26B98A1A00AF313C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD6629826B98A1A00AF313C /* HomeViewController.xib */; };
+		FAD6629E26B9B34E00AF313C /* OtherFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6629D26B9B34E00AF313C /* OtherFunctions.swift */; };
+		FAD662A026B9B3AE00AF313C /* ConfigurationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD6629F26B9B3AE00AF313C /* ConfigurationKeys.swift */; };
+		FAD662A326B9B58F00AF313C /* NSInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD662A226B9B58F00AF313C /* NSInteger.swift */; };
+		FAD662A526B9E1AF00AF313C /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD662A426B9E1AF00AF313C /* Keychain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAB72F8926BB46B100E92447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD6627326B9892400AF313C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD6627A26B9892400AF313C;
+			remoteInfo = "RSA-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAB72F8426BB46B100E92447 /* RSA-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RSA-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB72F8626BB46B100E92447 /* RSA_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSA_iOSTests.swift; sourceTree = "<group>"; };
+		FAB72F8826BB46B100E92447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB72F8F26BB49D300E92447 /* OtherFunctionsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherFunctionsTest.swift; sourceTree = "<group>"; };
+		FAD6627B26B9892400AF313C /* RSA-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RSA-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD6627E26B9892400AF313C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD6628726B9892500AF313C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD6628A26B9892500AF313C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD6628C26B9892500AF313C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "RSA-iOS/Supporting Files/Info.plist"; sourceTree = SOURCE_ROOT; };
+		FAD6629726B98A1A00AF313C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FAD6629826B98A1A00AF313C /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		FAD6629D26B9B34E00AF313C /* OtherFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherFunctions.swift; sourceTree = "<group>"; };
+		FAD6629F26B9B3AE00AF313C /* ConfigurationKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationKeys.swift; sourceTree = "<group>"; };
+		FAD662A226B9B58F00AF313C /* NSInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSInteger.swift; sourceTree = "<group>"; };
+		FAD662A426B9E1AF00AF313C /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB72F8126BB46B100E92447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD6627826B9892400AF313C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB72F8526BB46B100E92447 /* RSA-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB72F8E26BB49B700E92447 /* Utils */,
+				FAB72F8626BB46B100E92447 /* RSA_iOSTests.swift */,
+				FAB72F8826BB46B100E92447 /* Info.plist */,
+			);
+			path = "RSA-iOSTests";
+			sourceTree = "<group>";
+		};
+		FAB72F8E26BB49B700E92447 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FAB72F8F26BB49D300E92447 /* OtherFunctionsTest.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FAD6627226B9892400AF313C = {
+			isa = PBXGroup;
+			children = (
+				FAD6627D26B9892400AF313C /* RSA-iOS */,
+				FAB72F8526BB46B100E92447 /* RSA-iOSTests */,
+				FAD6627C26B9892400AF313C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD6627C26B9892400AF313C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6627B26B9892400AF313C /* RSA-iOS.app */,
+				FAB72F8426BB46B100E92447 /* RSA-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD6627D26B9892400AF313C /* RSA-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6627E26B9892400AF313C /* AppDelegate.swift */,
+				FAD6629326B989E200AF313C /* Views */,
+				FAD6629426B989E800AF313C /* Controllers */,
+				FAD6629C26B9B32900AF313C /* Utils */,
+				FAD6629226B9894B00AF313C /* Supporting Files */,
+				FAD6628726B9892500AF313C /* Assets.xcassets */,
+			);
+			path = "RSA-iOS";
+			sourceTree = "<group>";
+		};
+		FAD6629226B9894B00AF313C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6628C26B9892500AF313C /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD6629326B989E200AF313C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6629626B98A0000AF313C /* Home */,
+				FAD6629526B989F600AF313C /* Launch */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FAD6629426B989E800AF313C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6629B26B98A1F00AF313C /* Home */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FAD6629526B989F600AF313C /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6628926B9892500AF313C /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		FAD6629626B98A0000AF313C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6629826B98A1A00AF313C /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FAD6629B26B98A1F00AF313C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6629726B98A1A00AF313C /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FAD6629C26B9B32900AF313C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FAD662A126B9B56800AF313C /* Extensions */,
+				FAD6629D26B9B34E00AF313C /* OtherFunctions.swift */,
+				FAD6629F26B9B3AE00AF313C /* ConfigurationKeys.swift */,
+				FAD662A426B9E1AF00AF313C /* Keychain.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FAD662A126B9B56800AF313C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FAD662A226B9B58F00AF313C /* NSInteger.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB72F8326BB46B100E92447 /* RSA-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB72F8D26BB46B100E92447 /* Build configuration list for PBXNativeTarget "RSA-iOSTests" */;
+			buildPhases = (
+				FAB72F8026BB46B100E92447 /* Sources */,
+				FAB72F8126BB46B100E92447 /* Frameworks */,
+				FAB72F8226BB46B100E92447 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB72F8A26BB46B100E92447 /* PBXTargetDependency */,
+			);
+			name = "RSA-iOSTests";
+			productName = "RSA-iOSTests";
+			productReference = FAB72F8426BB46B100E92447 /* RSA-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAD6627A26B9892400AF313C /* RSA-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD6628F26B9892500AF313C /* Build configuration list for PBXNativeTarget "RSA-iOS" */;
+			buildPhases = (
+				FAD6627726B9892400AF313C /* Sources */,
+				FAD6627826B9892400AF313C /* Frameworks */,
+				FAD6627926B9892400AF313C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RSA-iOS";
+			productName = "RSA-iOS";
+			productReference = FAD6627B26B9892400AF313C /* RSA-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD6627326B9892400AF313C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FAB72F8326BB46B100E92447 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FAD6627A26B9892400AF313C;
+					};
+					FAD6627A26B9892400AF313C = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = FAD6627626B9892400AF313C /* Build configuration list for PBXProject "RSA-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD6627226B9892400AF313C;
+			productRefGroup = FAD6627C26B9892400AF313C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD6627A26B9892400AF313C /* RSA-iOS */,
+				FAB72F8326BB46B100E92447 /* RSA-iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB72F8226BB46B100E92447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD6627926B9892400AF313C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD6628B26B9892500AF313C /* LaunchScreen.storyboard in Resources */,
+				FAD6628826B9892500AF313C /* Assets.xcassets in Resources */,
+				FAD6629A26B98A1A00AF313C /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB72F8026BB46B100E92447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB72F9026BB49D300E92447 /* OtherFunctionsTest.swift in Sources */,
+				FAB72F8726BB46B100E92447 /* RSA_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD6627726B9892400AF313C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD662A026B9B3AE00AF313C /* ConfigurationKeys.swift in Sources */,
+				FAD662A326B9B58F00AF313C /* NSInteger.swift in Sources */,
+				FAD6627F26B9892400AF313C /* AppDelegate.swift in Sources */,
+				FAD6629E26B9B34E00AF313C /* OtherFunctions.swift in Sources */,
+				FAD6629926B98A1A00AF313C /* HomeViewController.swift in Sources */,
+				FAD662A526B9E1AF00AF313C /* Keychain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAB72F8A26BB46B100E92447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD6627A26B9892400AF313C /* RSA-iOS */;
+			targetProxy = FAB72F8926BB46B100E92447 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD6628926B9892500AF313C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD6628A26B9892500AF313C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB72F8B26BB46B100E92447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5DNK3AX7W;
+				INFOPLIST_FILE = "RSA-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iherrera.test.RSA-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSA-iOS.app/RSA-iOS";
+			};
+			name = Debug;
+		};
+		FAB72F8C26BB46B100E92447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5DNK3AX7W;
+				INFOPLIST_FILE = "RSA-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iherrera.test.RSA-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSA-iOS.app/RSA-iOS";
+			};
+			name = Release;
+		};
+		FAD6628D26B9892500AF313C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAD6628E26B9892500AF313C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD6629026B9892500AF313C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5DNK3AX7W;
+				INFOPLIST_FILE = "RSA-iOS/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iherrera.test.RSA-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD6629126B9892500AF313C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5DNK3AX7W;
+				INFOPLIST_FILE = "RSA-iOS/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iherrera.test.RSA-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB72F8D26BB46B100E92447 /* Build configuration list for PBXNativeTarget "RSA-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB72F8B26BB46B100E92447 /* Debug */,
+				FAB72F8C26BB46B100E92447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD6627626B9892400AF313C /* Build configuration list for PBXProject "RSA-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD6628D26B9892500AF313C /* Debug */,
+				FAD6628E26B9892500AF313C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD6628F26B9892500AF313C /* Build configuration list for PBXNativeTarget "RSA-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD6629026B9892500AF313C /* Debug */,
+				FAD6629126B9892500AF313C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD6627326B9892400AF313C /* Project object */;
+}
